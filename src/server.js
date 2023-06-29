@@ -10,8 +10,8 @@ const app = express()
 db.connect()
 
 const allowedOrigins = [
-    'http://127.0.0.1:550',
-    'http://www.outroapp.com.br',
+    'http://127.0.0.1:5500',
+    'http://www.app.com.br',
 ]
 
 // habilita CORS
